@@ -1,0 +1,1 @@
+/usr/lib/spaceship-prompt/spaceship.zsh

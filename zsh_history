@@ -1,0 +1,247 @@
+: 1554812842:0;ls
+: 1554813077:0;vim .i3/config
+: 1554813103:0;cat .bashrc
+: 1554813124:0;vim .bashrc
+: 1554813219:0;vim .bash_profile
+: 1554813225:0;vim .profile
+: 1554814245:0;$echo TERMINAL
+: 1554814251:0;echo $TERMINAL
+: 1554814255:0;echo $terminal
+: 1554814272:0;sudo pacman -S xfce4-screenshooter
+: 1554814574:0;ls
+: 1554814587:0;terminal
+: 1554814599:0;ls -lah
+: 1554814612:0;sudo pacman -S bat
+: 1554814644:0;vim .Xresources
+: 1554814675:0;vim .xinitrc
+: 1554814892:0;ls
+: 1554815180:0;:q
+: 1554815346:0;ls
+: 1554815552:0;pacui
+: 1554815671:0;yay Material-Design
+: 1554816277:0;bat
+: 1554816285:0;bat .i3/config
+: 1554816851:0;vim Documents/start.md 
+: 1554817956:0;pacui
+: 1554822611:0;ls
+: 1554822621:0;pwd
+: 1554822664:0;sudo pacman -S gparted
+: 1554822800:0;yay spaceship
+: 1554824356:0;ls
+: 1554824363:0;cd Documents
+: 1554824364:0;ls
+: 1554824367:0;cd ..
+: 1554824382:0;yay powerline
+: 1554824518:0;ls
+: 1554824588:0;vim .zshrc
+: 1554824616:0;ls
+: 1554824628:0;ls /opt
+: 1554824640:0;whereis spaceship-git
+: 1554824648:0;which spaceship-git
+: 1554824660:0;LS
+: 1554824662:0;ls
+: 1554824668:0;ls /usr/share/bison
+: 1554824703:0;ls /usr/bin/ls
+: 1554824705:0;ls
+: 1554824712:0;ls -lah
+: 1554824726:0;cd .oh-my-zsh
+: 1554824727:0;ls
+: 1554824732:0;ls themes
+: 1554824971:0;cp /usr/lib/spaceship-prompt/spaceship.zsh ~/.oh-my-zsh/themes
+: 1554824994:0;cd .oh-my-zsh/themes
+: 1554825001:0;mv spaceship.zsh spaceship.zsh-theme
+: 1554825015:0;ls
+: 1554825037:0;rm .oh-my-zsh/themes/spaceship.zsh-theme
+: 1554825040:0;ls
+: 1554825094:0;ls .zshrc
+: 1554825099:0;ls .zshrc.pre-oh-my-zsh
+: 1554825105:0;ls .oh-my-zsh/themes
+: 1554825228:0;sudo  ln -s /usr/lib/spaceship-prompt/spaceship.zsh ~/.oh-my-zsh/themes/spaceship.zsh-theme
+: 1554825240:0;ls
+: 1554825316:0;yay lazygit
+: 1554825324:0;sudo pacman -S lazygit
+: 1554825330:0;pacui
+: 1554825681:0;wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+: 1554825718:0;vim .profile
+: 1554825747:0;cat .bash_profile
+: 1554825755:0;cat .bashrc
+: 1554825764:0;vim .bashrc
+: 1554825834:0;vim
+: 1554825844:0;ls
+: 1554825862:0;vim .zshrc
+: 1554825980:0;command -v nvm
+: 1554826020:0;yay lazygit
+: 1554826053:0;ls
+: 1554826362:0;vim .zshrc
+: 1554826902:0;ls
+: 1554827248:0;vim
+: 1554827294:0;vi
+: 1554827358:0;ls
+: 1554827371:0;mkdir Repos
+: 1554827374:0;cd Repos
+: 1554827382:0;git init test
+: 1554827385:0;cd test
+: 1554827418:0;echo "Hello, World > hello.txt\
+git status
+: 1554827438:0;echo "Hello, World > hello.txt\
+git status\
+ls\
+ls
+: 1554827443:0;ls
+: 1554827459:0;echo "Hello, World" >> hello.txt
+: 1554827461:0;ls
+: 1554827469:0;git status
+: 1554827477:0;git
+: 1554827480:0;ls
+: 1554827490:0;nvm node
+: 1554827493:0;node install node
+: 1554827497:0;nvm node
+: 1554827515:0;nvm install node
+: 1554827924:0;cd $ZSH_CUSTOM/plugins
+: 1554827929:0;ls
+: 1554827940:0;git clone https://github.com/chrissicool/zsh-bash 
+: 1554827950:0;cd
+: 1554827956:0;vim .zshrc
+: 1554828007:0;ls .oh-my-zsh/plugins
+: 1554828013:0;cd $ZSH_CUSTOM/plugins
+: 1554828016:0;ls
+: 1554828030:0;cd ..
+: 1554828032:0;ls plugins
+: 1554828034:0;ls
+: 1554828042:0;cd ..
+: 1554828044:0;ls plugins
+: 1554828089:0;ls
+: 1554828093:0;cd custom
+: 1554828094:0;ls
+: 1554828096:0;cd plugins
+: 1554828096:0;ls
+: 1554828100:0;ls zsh-bash
+: 1554828208:0;echo 'Hello, world!' > hello.txt
+: 1554828209:0;ls
+: 1554828213:0;rm hello.txt
+: 1554828224:0;echo "Hello, world > hello.txt
+: 1554828240:0;ls
+: 1554828282:0;cd .oh-my-zsh
+: 1554828285:0;cd plugins
+: 1554828285:0;ls
+: 1554828307:0;cd plugins
+: 1554828309:0;ls
+: 1554828334:0;vim .zshrc
+: 1554828497:0;ls
+: 1554828500:0;cd
+: 1554828523:0;ls
+: 1554828527:0;cd Repos
+: 1554828529:0;cd test
+: 1554828532:0;npm init -y
+: 1554828668:0;ls
+: 1554828698:0;cd ..
+: 1554828703:0;rm test
+: 1554828706:0;rm test -rf
+: 1554828710:0;rmdir
+: 1554828718:0;mkdir test
+: 1554828721:0;rmdir test
+: 1554828826:0;sudo pacman -S tmux
+: 1554828850:0;tmux
+: 1554828852:0;:q
+: 1554828856:0;tmux
+: 1554828873:0;ls
+: 1554828925:0;vim .zshrc
+: 1554829050:0;ls
+: 1554829052:0;yay rcm
+: 1554829244:0;nmap_open_ports
+: 1554829263:0;vim .zshrc
+: 1554829280:0;nmap_open_ports
+: 1554829295:0;nmap_list_interfaces
+: 1554829568:0;vim .zshrc
+: 1554829688:0;cd Repos/
+: 1554829689:0;ls
+: 1554829694:0;git init test
+: 1554829696:0;cd test
+: 1554829699:0;gi list
+: 1554829716:0;ls .gitignore
+: 1554829723:0;mkdir .gitignore
+: 1554829727:0;gi list
+: 1554829786:0;gi node >> .gitignore
+: 1554829792:0;ls
+: 1554829801:0;rmdir .gitignore
+: 1554829805:0;gi node >> .gitignore
+: 1554829821:0;cat .gitignore
+: 1554829868:0;node-docs fs
+: 1554830070:0;ls
+: 1554830179:0;cd
+: 1554830187:0;vim .zshrc
+: 1554830271:0;ls
+: 1554830340:0;exit
+: 1554830407:0;vim
+: 1554830429:0;vim .zshrc
+: 1554830463:0;ls
+: 1554830489:0;killall tmux
+: 1554830533:0;vim .zshrc
+: 1554830603:0;tkss
+: 1554830606:0;tkss 3
+: 1554830613:0;tkss 1
+: 1554830615:0;tkss 2
+: 1554830640:0;tksv
+: 1554830648:0;ls
+: 1554830673:0;tl
+: 1554830691:0;ls
+: 1554830765:0;rcm -v
+: 1554830773:0;yay rcm
+: 1554830813:0;rcm -v
+: 1554830818:0;rcm --version
+: 1554830822:0;rcm -vesion
+: 1554830827:0;ls
+: 1554830829:0;ls -lah
+: 1554830865:0;ls
+: 1554830868:0;ls -lah
+: 1554830946:0;ls
+: 1554830949:0;ls -lah
+: 1554831119:0;tksv
+: 1554831160:0;lsrc
+: 1554831166:0;lsrc -ah
+: 1554831170:0;lsrc -lah
+: 1554831172:0;lsrc
+: 1554831228:0;lsrc -x backups
+: 1554831246:0;ls .dotfiles
+: 1554831249:0;rcm
+: 1554831255:0;lsrc
+: 1554831272:0;lsrc -x backups -x bundle -x undodir
+: 1554831323:0;lsrc -S backups -S bundle -S undodir
+: 1554831327:0;ls
+: 1554831329:0;ls -lah
+: 1554831382:0;rcup -v -S backups -S bundle -S undodir
+: 1554831388:0;rcup
+: 1554831395:0;ls
+: 1554831397:0;ls -lah
+: 1554831416:0;lsrc -v
+: 1554831424:0;mkdir .dotfiles
+: 1554831430:0;rcup -v -S backups -S bundle -S undodir
+: 1554831440:0;ls .dotfiles
+: 1554831466:0;yay rcm
+: 1554831486:0;pacui
+: 1554831561:0;tsk
+: 1554831563:0;tskt
+: 1554831571:0;tkss 0
+: 1554831585:0;ls
+: 1554831597:0;tkss 1
+: 1554831599:0;tkss 0
+: 1554831611:0;yay rcm-git
+: 1554831781:0;yay rcm
+: 1554831814:0;sudo lsrc
+: 1554831839:0;sudo  rcup -v -S backups -S bundle -S undodir
+: 1554831847:0;ls .dotfiles -lah
+: 1554831854:0;yay rm rcm
+: 1554831862:0;yay -R rcm
+: 1554831870:0;yay rcm-git
+: 1554832338:0;lsrc
+: 1554832349:0;rcup -v -S backups -S bundle -S undodir
+: 1554832354:0;ls .dotfiles -lah
+: 1554832399:0;rcdn -v
+: 1554832405:0;cd .dotfiles
+: 1554832406:0;ls
+: 1554832411:0;lsrc
+: 1554832420:0;rcup -v -S backups -S bundle -S undodir
+: 1554832423:0;pwd
+: 1554832429:0;ls -lah
+: 1554832497:0;lsrc
+: 1554832505:0;bash

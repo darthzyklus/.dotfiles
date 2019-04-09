@@ -245,3 +245,37 @@ ls
 : 1554832429:0;ls -lah
 : 1554832497:0;lsrc
 : 1554832505:0;bash
+: 1554834716:0;cd .oh-my-zsh/custom/plugins
+: 1554834722:0;ls
+: 1554834753:0;ln -s /usr/lib/spaceship-prompt/spaceship.zsh ./spaceship.zsh-theme
+: 1554834755:0;cd
+: 1554834762:0;cd .oh-my-zsh/custom/plugins
+: 1554834776:0;ls .oh-my-zsh/custom/plugins
+: 1554834781:0;cd .oh-my-zsh/custom/plugins
+: 1554834787:0;ls
+: 1554834807:0;cd
+: 1554834816:0;rcup -v
+: 1554834862:0;ls
+: 1554834872:0;ls -lah
+: 1554834885:0;ls
+: 1554834912:0;mkrc .oh-my-zsh
+: 1554834966:0;rcup -v
+: 1554835053:0;vim .zshrc
+: 1554835134:0;ls .dotfiles/oh-my-zsh
+: 1554835158:0;rm .dotfiles/oh-my-zsh -rf
+: 1554835176:0;rm .oh-my-zsh -rf
+: 1554835184:0;wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
+: 1554835205:0;sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+: 1554835295:0;ls .oh-my-zsh
+: 1554835320:0;mkrc .oh-my-zsh
+: 1554835372:0;rcup .oh-my-zsh
+: 1554835381:0;ls -lah .oh-my-zsh
+: 1554835399:0;ls
+: 1554835401:0;cd .dotfiles
+: 1554835415:0;cd oh-my-zsh/custom/plugins
+: 1554835419:0;ln -s /usr/lib/spaceship-prompt/spaceship.zsh ./spaceship.zsh-theme
+: 1554835433:0;cd .dotfiles/oh-my-zsh/custom/plugins
+: 1554835447:0;cd
+: 1554835449:0;vim .zshrc
+: 1554835539:0;tskv
+: 1554835551:0;tksv

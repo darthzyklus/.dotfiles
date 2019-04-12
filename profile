@@ -9,4 +9,9 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
+
+## Custom scripts
+export PATH="$PATH:$HOME/.custom-scripts"
+
+
 alias sync-dotfiles='rcup -v -S backups -S bundle -S undodir' 

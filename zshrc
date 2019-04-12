@@ -66,10 +66,10 @@ ZSH_THEME="spaceship"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git gitignore tmux ansible nmap node)
 
-ZSH_TMUX_AUTOSTART=true
-ZSH_TMUX_AUTOCONNECT=false
-ZSH_TMUX_AUTOQUIT=true
-ZSH_TMUX_FIXTERM=true
+#ZSH_TMUX_AUTOSTART=true
+#ZSH_TMUX_AUTOCONNECT=false
+#ZSH_TMUX_AUTOQUIT=true
+#ZSH_TMUX_FIXTERM=true
 
 source $ZSH/oh-my-zsh.sh
 

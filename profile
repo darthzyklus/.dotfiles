@@ -16,5 +16,7 @@ export PATH="$PATH:$HOME/.custom-scripts"
 ## yarn bin files
 export PATH="$PATH:$HOME/.yarn/bin"
 
+## Composer bin files
+export PATH="$PATH:$HOME/.config/composer/vendor/bin"
 
 alias sync-dotfiles='rcup -v -S backups -S bundle -S undodir' 

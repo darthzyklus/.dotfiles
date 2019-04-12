@@ -13,6 +13,7 @@ call vundle#begin()
   Plugin 'othree/yajs.vim'
   Plugin 'maxmellon/vim-jsx-pretty'
   Plugin 'christoomey/vim-tmux-navigator'
+  Plugin 'posva/vim-vue'
 call vundle#end()            " required
 filetype plugin indent on    " required
 

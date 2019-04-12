@@ -14,6 +14,7 @@ call vundle#begin()
   Plugin 'maxmellon/vim-jsx-pretty'
   Plugin 'christoomey/vim-tmux-navigator'
   Plugin 'posva/vim-vue'
+  Plugin 'mattn/emmet-vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -23,7 +24,9 @@ set background=dark
 
 set ruler
 set numberwidth=3
-set tabstop=2 shiftwidth=2 expandtab
+
+set expandtab tabstop=2 shiftwidth=2
+autocmd VimEnter * set autoindent smartindent
 
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 highlight CursorLineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
@@ -75,3 +78,6 @@ inoremap <S-C-j> <Esc>:m .+1<CR>==gi
 inoremap <S-C-k> <Esc>:m .-2<CR>==gi
 vnoremap <S-C-j> :m '>+1<CR>gv=gv
 vnoremap <S-C-k> :m '<-2<CR>gv=gv
+
+
+let g:user_emmet_leader_key=','

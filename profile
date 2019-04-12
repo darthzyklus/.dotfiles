@@ -13,5 +13,8 @@ export NVM_DIR="$HOME/.nvm"
 ## Custom scripts
 export PATH="$PATH:$HOME/.custom-scripts"
 
+## yarn bin files
+export PATH="$PATH:$HOME/.yarn/bin"
+
 
 alias sync-dotfiles='rcup -v -S backups -S bundle -S undodir' 

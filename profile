@@ -22,4 +22,9 @@ COMPOSER_DIR="$HOME/.config/composer";
 export PATH="$PATH:$COMPOSER_DIR/vendor/bin"
 
 alias sync-dotfiles='rcup -v -S backups -S bundle -S undodir'
-alias valet="$COMPOSER_DIR/vendor/bin/valet" 
+alias valet="$COMPOSER_DIR/vendor/bin/valet"
+
+
+export FZF_DEFAULT_OPS="--extended"
+export FZF_DEFAULT_COMMAND="fd --type f"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"

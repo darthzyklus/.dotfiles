@@ -15,6 +15,8 @@ call vundle#begin()
   Plugin 'christoomey/vim-tmux-navigator'
   Plugin 'posva/vim-vue'
   Plugin 'mattn/emmet-vim'
+  Plugin 'mhinz/vim-signify'
+  Plugin 'junegunn/fzf.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 

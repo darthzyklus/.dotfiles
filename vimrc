@@ -29,6 +29,7 @@ call plug#begin(expand('~/.vim/plugged'))
 "*****************************************************************************
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
@@ -44,6 +45,9 @@ Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
+Plug 'ryanoasis/vim-devicons'
+Plug 'christoomey/vim-tmux-navigator'
+Plug 'Valloric/YouCompleteMe'
 
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -89,14 +93,14 @@ Plug 'mattn/emmet-vim'
 
 " javascript
 "" Javascript Bundle
-Plug 'jelera/vim-javascript-syntax'
-
-
+Plug 'othree/yajs.vim'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'leafgarland/typescript-vim'
+Plug 'posva/vim-vue'
 " php
 "" PHP Bundle
 Plug 'arnaud-lb/vim-php-namespace'
-
-
+Plug '/usr/home/andres/.vim/plugged/phpcomplete.vim'
 "*****************************************************************************
 "*****************************************************************************
 
@@ -292,10 +296,10 @@ augroup vimrc-sync-fromstart
 augroup END
 
 "" Remember cursor position
-augroup vimrc-remember-cursor-position
+ augroup vimrc-remember-cursor-position
   autocmd!
   autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
-augroup END
+ augroup END
 
 "" txt
 augroup vimrc-wrapping

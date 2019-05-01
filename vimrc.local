@@ -54,3 +54,8 @@ endif
 
 "" emmet leader key 
 let g:user_emmet_leader_key=','
+
+"" autosave
+nmap <c-s> :w<CR>
+vmap <c-s> <Esc><c-s>gv
+imap <c-s> <Esc><c-s>

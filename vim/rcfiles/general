@@ -1,0 +1,34 @@
+" General VIM settings
+" --------------------
+syntax on
+
+filetype plugin indent on
+
+set ruler
+set showcmd " display incomplete commands
+set laststatus " always display the status line
+set incsearch " do incremental searching
+set hlsearch " highlight search matches
+
+" Tabs
+set tabstop=2
+set shiftwidth=2
+set shiftround
+set expandtab
+
+" Display relative line numbers, with the absolute line number for current line
+set number
+set relativenumber
+highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
+
+" Open new split panes to right and bottom
+set splitbelow
+set splitright
+
+" Always use vertical diffs
+set diffopt+=vertical
+
+" Don't require saving before closing a buffer
+set hidden
+
+" vim:ft=vim

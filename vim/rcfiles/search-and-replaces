@@ -1,0 +1,12 @@
+" Search / Substitute related configurations
+"-------------------------------------------
+
+set incsearch " do incremental searching
+set hlsearch " highlight search matches
+set ignorecase
+set smartcase
+
+nnoremap <leader>sub :%s///g<left><left>
+vnoremap <leader>sub :s///g<left><left>
+
+" vim:ft=vim

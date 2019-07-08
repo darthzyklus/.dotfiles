@@ -7,8 +7,6 @@ filetype plugin indent on
 set ruler
 set showcmd " display incomplete commands
 set laststatus " always display the status line
-set incsearch " do incremental searching
-set hlsearch " highlight search matches
 
 " Tabs
 set tabstop=2

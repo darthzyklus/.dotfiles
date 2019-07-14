@@ -8,4 +8,11 @@ let g:fzf_files_options =
 nnoremap <C-p> :Files<cr>
 let $FZF_DEFAULT_COMMAND = 'ag -g "" --hidden'
 
+
+nmap <Leader>f :GFiles<CR>
+nmap <Leader>F :Files<CR>
+nmap <Leader>b :Buffers<CR>
+nmap <Leader>h :History<CR>
+nnoremap <Leader>c :Rg<CR>
+
 " vim:ft=vim

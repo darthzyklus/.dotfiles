@@ -1,0 +1,11 @@
+" fzf - the fuzzy finder of all the things
+
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+let g:fzf_files_options =
+  \ '--reverse ' .
+  \ '--preview "(coderay {} || cat {}) 2> /dev/null | head -'.&lines.'"'
+nnoremap <C-p> :Files<cr>
+let $FZF_DEFAULT_COMMAND = 'ag -g "" --hidden'
+
+" vim:ft=vim

@@ -1,0 +1,6 @@
+"unimpaired - Pairs of mappings for changing options, adding lines, etc.
+
+Plug 'tpope/vim-unimpaired'
+
+" vim:ft=vim
+

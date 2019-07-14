@@ -1,0 +1,26 @@
+" ALE - Asynchronous linting engine, checks files as you work
+
+Plug 'w0rp/ale'
+
+  " Equivalent to the above.
+  let b:ale_linters = {'javascript': ['prettier','eslint']}
+
+  " Fix files with prettier, and then ESLint.
+  let b:ale_fixers = {'javascript': ['prettier', 'eslint']}
+
+
+  " Set this variable to 1 to fix files when you save them.
+  let g:ale_fix_on_save = 1
+
+  let g:ale_lint_on_text_changed = 0
+
+  "  Options to specify what text should be used for signs
+  let g:ale_sign_error = '**'
+  let g:ale_sign_warning = '--'
+
+
+  nmap <silent> [r <Plug>(ale_previous_wrap)
+  nmap <silent> ]r <Plug>(ale_next_wrap)
+
+
+" vim:ft=vim

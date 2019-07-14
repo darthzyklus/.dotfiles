@@ -1,0 +1,9 @@
+" Plugins for Javascript
+
+  Plug 'pangloss/vim-javascript'
+  Plug 'mxw/vim-jsx'
+
+  " Allow Vim-JSX to highlight *.js files 
+  let g:jsx_ext_required = 0
+
+" vim:ft=vim

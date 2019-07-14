@@ -6,7 +6,6 @@ filetype plugin indent on
 
 set ruler
 set showcmd " display incomplete commands
-set laststatus " always display the status line
 
 " Tabs
 set tabstop=2
@@ -20,8 +19,8 @@ set relativenumber
 highlight LineNr term=bold cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=DarkGrey guibg=NONE
 
 " Open new split panes to right and bottom
-set splitbelow
 set splitright
+set splitbelow
 
 " Always use vertical diffs
 set diffopt+=vertical

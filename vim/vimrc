@@ -1,6 +1,5 @@
 " vimrc
 
-
 " This file contains the base configuration, the rest of 
 " configuration and  settings are living on vim/rcfiles and vim/rcplugins
 " inspired by christoomey/dotfiles

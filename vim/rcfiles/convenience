@@ -1,0 +1,26 @@
+" Configs & mappings
+
+
+" Use C-Space to Esc out of any mode
+nnoremap <C-Space> <Esc>:noh<CR>
+vnoremap <C-Space> <Esc>gV
+onoremap <C-Space> <Esc>
+cnoremap <C-Space> <C-c>
+inoremap <C-Space> <Esc>
+
+nnoremap <leader>; :
+
+" Swap 0 and ^
+nnoremap 0 ^
+nnoremap ^ 0
+
+" Switch between the last two files
+nnoremap <leader><leader> <c-^>
+
+" autosave
+nmap <c-s> :w<CR>
+vmap <c-s> <Esc><c-s>gv
+imap <c-s> <Esc><c-s>
+
+
+" vim:ft=vim

@@ -1,18 +1,38 @@
 " fzf - the fuzzy finder of all the things
 
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Plug 'junegunn/fzf.vim'
-let g:fzf_files_options =
-  \ '--reverse ' .
-  \ '--preview "(coderay {} || cat {}) 2> /dev/null | head -'.&lines.'"'
-nnoremap <C-p> :Files<cr>
+  Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+  Plug 'junegunn/fzf.vim'
+    let g:fzf_files_options =
+      \ '--reverse ' .
+      \ '--preview "(coderay {} || cat {}) 2> /dev/null | head -'.&lines.'"'
 let $FZF_DEFAULT_COMMAND = 'ag -g "" --hidden'
 
+autocmd VimEnter * command! -bang -nargs=? GFiles call fzf#vim#gitfiles(<q-args>, {'options': '--preview "(coderay {} || cat {}) 2> /dev/null | head -'.&lines.'"'}, <bang>0)
 
-nmap <Leader>f :GFiles<CR>
-nmap <Leader>F :Files<CR>
+
+" File finder
+nnoremap <C-p> :GFiles<CR>
+nmap <Leader>f :Files<CR>
+
+" Buffer finder
 nmap <Leader>b :Buffers<CR>
 nmap <Leader>h :History<CR>
+
+
+" Content finder
 nnoremap <Leader>c :Rg<CR>
+
+" Tag finder
+nmap <Leader>t :BTags<CR>
+nmap <Leader>T :Tags<CR>
+
+
+" Line finder
+nmap <Leader>l :BLines<CR>
+nmap <Leader>L :Lines<CR>
+nmap <Leader>' :Marks<CR>'
+
+" Commands finder
+nmap <Leader>C :Commands<CR>
 
 " vim:ft=vim

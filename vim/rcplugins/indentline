@@ -1,0 +1,6 @@
+" Displaying thin vertical lines at each indentation level for code indented with spaces
+
+  Plug 'yggdroot/indentline'
+  let g:indentLine_char_list = ['┊']
+
+" vim:ft=vim

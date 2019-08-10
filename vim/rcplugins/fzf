@@ -5,7 +5,7 @@
     let g:fzf_files_options =
       \ '--reverse ' .
       \ '--preview "(coderay {} || cat {}) 2> /dev/null | head -'.&lines.'"'
-let $FZF_DEFAULT_COMMAND = 'ag -g "" --hidden'
+let $FZF_DEFAULT_COMMAND = 'ag  --ignore node_modules -g "" --hidden'
 
 autocmd VimEnter * command! -bang -nargs=? GFiles call fzf#vim#gitfiles(<q-args>, {'options': '--preview "(coderay {} || cat {}) 2> /dev/null | head -'.&lines.'"'}, <bang>0)
 

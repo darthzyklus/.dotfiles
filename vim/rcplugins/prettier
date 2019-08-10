@@ -7,6 +7,6 @@
   let g:prettier#config#single_quote = 'true'
   let g:prettier#config#bracket_spacing = 'true'
   let g:prettier#config#trailing_comma = 'none'
-  let g:prettier#config#config_precedence = 'prefer-file'
+  let g:prettier#config#config_precedence = 'file-override'
 
 " vim:ft=vim

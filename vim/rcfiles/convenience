@@ -23,4 +23,29 @@ vmap <c-s> <Esc><c-s>gv
 imap <c-s> <Esc><c-s>
 
 
+" folding
+function! MyFoldText() " {{{
+  let line = getline(v:foldstart)
+  let nucolwidth = &fdc + &number * &numberwidth
+  let windowwidth = winwidth(0) - nucolwidth - 3
+  let foldedlinecount = v:foldend - v:foldstart
+  " expand tabs into spaces
+  let onetab = strpart(' ', 0, &tabstop)
+  let line = substitute(line, '\t', onetab, 'g')
+  let line = strpart(line, 0, windowwidth - 2 - len(foldedlinecount))
+  let fillcharcount = windowwidth - len(line) - len(foldedlinecount) - 2
+  
+  return line . ' … }' . repeat(" ", fillcharcount) . foldedlinecount . ' '
+endfunction " }}}
+
+set foldtext=MyFoldText()
+set foldmethod=syntax
+hi Folded guibg=NONE guifg=lightgreen
+
+" Keep all folds open when a file is opened
+augroup OpenAllFoldsOnFileOpen
+    autocmd!
+    autocmd BufRead * normal zR
+augroup END
+
 " vim:ft=vim
